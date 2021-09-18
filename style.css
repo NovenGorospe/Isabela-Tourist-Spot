@@ -1,0 +1,608 @@
+div#bodycontent{
+    width: 100%;
+    height: auto;
+    
+}
+div#navbar{
+    position: sticky;
+}
+h2#tag{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3#tag{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span#explore{
+    color:tomato;
+}
+
+a#button_index{
+    margin-top: 10px;
+    border-radius: 50px;
+    border-style: groove;
+    border-color: black;
+    font-size: 200%;
+}
+
+
+div#leftcontent{
+    width: 59%;
+    float: left;
+    padding: 10px;
+}
+div#rightcontent{ 
+    float: left;
+    width: 40%;
+    height: 500px;
+    padding: 10px;
+    padding-top: 30px;
+}
+div#search{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+}
+.searchbar{
+  width: 400px;
+  float: right;
+  height: 40px;
+  margin-right: 30px;
+  border-style: groove;
+}
+div#banner{
+      background-image: url(image/banner1.jpg);
+    background-repeat:no-repeat;
+    height:160px;
+  
+    background-size: 100%;
+   
+  
+  
+}
+@media only screen and (max-width: 1200px) {
+  div#banner{
+      background-image: url(image/banner1.jpg);
+    background-repeat:no-repeat;
+    height:100px;
+    background-size: 100%; 
+}
+}
+@media only screen and (max-width: 600px) {
+  
+    div#leftcontent{
+        width: 100%;
+        height: auto;   
+        
+    }
+    div#rightcontent{ 
+      
+        width: 100%;
+       height: auto;
+    }
+    div#banner{
+     height: 0px;
+  
+  
+}
+   
+  }
+  /* Float four columns side by side */
+.column {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+    padding-top:20px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+  
+  
+    height: 300px;
+  }
+  img#card_image   {
+      width: 100%;
+      height: 250px;
+      padding-bottom: 10px;
+  }
+  h5#h5{
+      padding-left: 10px;
+ 
+  }
+  .checked{
+    color: orange;
+  }
+  div#footer{
+      width: 100%;
+      background-color:forestgreen;
+      padding-left: 30px;
+     padding-top: 20px;
+     color: white;
+   
+  }
+  
+  .column1 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+  
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+   /*------------------------------------------------------- tourist spot css */
+   .column_cities {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  
+  }
+  
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h4#tag{
+      font-size: 50px;
+  }
+   
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column_cities{
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  a#button_viewall{
+      width: 150px;
+    border-radius: 50px;
+      font-size: 25px;
+      font-weight:300;
+      background-color: black;
+      color: white;
+  }
+  a
+  .collapsible {
+  
+    padding: 18px;
+    width: 100%;
+ 
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+  }
+  button#button1{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    overflow: hidden;    
+  }
+  a.link{
+    
+      color: black;
+  }
+  a.link1{
+    
+    color: black;
+    text-decoration: none;
+    padding-left: 5px;
+    font-size: 15px;
+    font-weight: bolder;
+    
+}
+
+   /* ------------------------------------------------------------- all tour css */
+
+   div#alltourleftcontent{
+       width: 25%;
+      padding-left: 25px;
+       height: 500px;
+       float: left;
+       padding-top: 50px;
+    
+      
+   }
+   div#alltourrightcontent{
+    width: 75%;
+    float: right;
+    height: auto;
+
+}
+div.alltourcolumn_cities{
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+.alltourleftlik{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+h4#leftcategory{
+    font-size: 25;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-style:inset;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 600px) {
+  div#alltourleftcontent{
+    width: 100%;
+   padding-left: 25px;
+    height: auto;
+    float: left;
+    padding-top: 20px;
+}
+div#alltourrightcontent{
+ width: 100%;
+ height: auto;
+
+}
+div.alltourcolumn_cities{
+
+  width: 100%;
+  padding: 10px;
+}
+}
+/* ------------------------------------------------------------- category css */
+a#button_category{
+  width: 200px;
+  border-style: groove;
+  border-color: black;
+  color:black;
+  margin-top:10px;
+  margin-left: 10px;
+  font-size: 17px;
+  background-color:green;
+  color: white;
+
+}
+h4#leftcategory1{
+  font-size: 25;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-left:5px;
+}
+div.sticky-div { 
+
+  position: relative; 
+  width: 100%; 
+  padding: 10px 0px; 
+  margin-top: 50px;
+} 
+.fixedElement {
+  background-color: #c0c0c0;
+  position:fixed;
+  top:0;
+  width:100%;
+  z-index:100;
+}
+div#categoryleftcontent{
+  width:20%;
+  padding-left: 25px;
+   float: left;
+  
+}
+div#alltourrightcontent1{
+  width:80%;
+  height: auto;
+  float: right;
+ 
+}
+.column_category {
+  float: left;
+  width: 32.66%;
+  padding: 10px;
+
+}
+/* Responsive columns */
+@media screen and (max-width: 1100px) {
+  a#button_category{
+    width: 180px;
+    border-style: groove;
+    border-color: black;
+    color:black;
+    margin-top:10px;
+    margin-left: 10px;
+    color: white;
+  
+  }
+  div#categoryleftcontent{
+    width:30%;
+    padding-left: 10px;
+    margin-top:-50px;
+
+    background-color:white;
+    float: left;
+
+
+  
+  }
+  div#alltourrightcontent1{
+    width:70%;
+    height: auto;
+    float: right;
+   
+  }
+  .column_category{
+    width: 50%;
+    display: block;
+    margin-bottom: 20px;
+  }
+
+}
+@media screen and (max-width: 600px) {
+  
+  
+  a#button_category{
+    width: 130px;
+    border-style: groove;
+    border-color: black;
+    color:black;
+    margin-top:10px;
+    margin-left: 10px;
+    color: white;
+  
+  }
+  div#categoryleftcontent{
+    width:100%;
+    padding-left: 10px;
+    margin-top:10px;
+    z-index:100;
+    background-color:white;
+
+
+  
+  }
+  div#alltourrightcontent1{
+    width:100%;
+    height: auto;
+   
+  }
+  .column_category{
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .fixedElement {
+
+    position:relative;
+    top:0;
+    width:100%;
+    z-index:100;
+  }
+  
+}
+
+.fixedElement {
+
+  position:relative;
+  top:0;
+  width:100%;
+  z-index:100;
+}
+div.clear {
+  clear: both;
+}
+div#clear {
+  clear: both;
+}
+
+/* -----------------------------------------------------view css */
+
+.viewimg{
+  width: 100%;
+  height: 500px;
+  padding-bottom: 20px;
+
+}
+div#viewimage{
+  padding-left: 20px;
+  padding: 20px;
+  
+}
+div#viewrightcontent{
+ width: 75%;
+ float: right;
+}
+div.comment{
+  margin-top: 20px;
+  font-size: 15px;
+}
+@media screen and (max-width: 600px) {
+
+  div#viewrightcontent{
+    width: 100%;
+
+    
+   }
+   textarea{
+     width: 100%;
+   }
+}
+/*----------------------------star rating*/
+fieldset, label { margin: 0; padding: 0; }
+
+h1 { font-size: 1.5em; margin: 10px; }
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #FFED85;  } 
+
+button.btn{
+  width: 150px;
+  height: 40px;
+  background-color: green;
+  color: white;
+  margin-bottom: 20px;
+
+}
+
+
+/*----------------------------------------------------------slides image*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 900px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color:seagreen;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+input.contact[type=text], select {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+
+input[type=submit] {
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+textarea{
+    width: 60%;
+}
+  @media screen and (max-width: 600px) {
+    input.contact[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    input[type=submit] {
+      width: 40%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    textarea{
+        width: 100%;
+    }
+  }
